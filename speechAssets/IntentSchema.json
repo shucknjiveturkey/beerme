@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "OneshotBeerIntent",
+      "slots": [
+        {
+          "name": "City",
+          "type": "LIST_OF_CITIES"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
